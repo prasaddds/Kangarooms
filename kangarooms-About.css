@@ -1,0 +1,42 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(157, 163, 159);
+}
+.id44
+{
+    text-decoration: underline;
+    color: rgb(2, 2, 15);
+    background-color: rgb(53, 107, 133);
+    padding: 10px;
+    font-size: 30px;
+    border-bottom: solid 4px palegoldenrod;
+    border-left: solid 4px palegreen;
+    border-right: solid 4px paleturquoise;
+    border-top: solid 4px palevioletred;
+    text-align: center;
+}
+#id1
+{
+    margin-top: 5%;
+    height: auto;
+    width: 70%;
+    background-color: white;
+    margin-left: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+#img
+{
+    border-radius: 25px;
+}
+@media only screen and (max-width: 600px) {
+    #id1 {
+      margin-left: 0px;
+      margin-right: 0px;
+      width: 100%;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }

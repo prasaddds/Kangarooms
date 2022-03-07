@@ -1,0 +1,64 @@
+
+    #id1
+    {
+        text-align: center;
+        margin-top: 5px;
+        color: rgb(247, 10, 10);
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 10%;
+        background-color: black;
+    }
+    body{
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(157, 163, 159);
+        /* background-image: url('login.jpg');
+        background-size: cover; */
+    }
+    input[type="text"]
+	{
+		color:rgb(214, 32, 144);
+        font-weight: bold;
+	}
+  input[type="email"]
+	{
+		color:rgb(214, 32, 144);
+        font-weight: bold;
+	}
+  input[type="password"]
+	{
+		color:rgb(214, 32, 144);
+        font-weight: bold;
+	}
+    input[type="date"]
+	{
+		color:rgb(214, 32, 144);
+        font-weight: bold;
+	}
+    .id44
+    {
+        text-decoration: underline;
+    color: rgb(2, 2, 15);
+    background-color: rgb(53, 107, 133);
+    padding: 10px;
+    border-bottom: solid 4px palegoldenrod;
+    border-left: solid 4px palegreen;
+    border-right: solid 4px paleturquoise;
+    border-top: solid 4px palevioletred;
+    text-align: center;
+    }
+    *
+    {
+        padding: 0px;
+        margin: 0px;
+
+    }
+    #im
+    {
+        border-radius: 25px;
+        margin-left: 49%;
+        margin-top: 1%;
+        /* display: flex;
+        justify-content: space-around; */
+    }

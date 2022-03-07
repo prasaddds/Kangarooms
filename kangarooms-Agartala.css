@@ -1,0 +1,100 @@
+body
+{
+    background-color: rgb(157, 163, 159);
+}
+.card
+{
+    margin-top: 100px;
+    display: inline-block;
+    height: 550px;
+    width: auto;
+    border-bottom: solid 2px red;
+    border-top: solid 2px red;
+    border-left: solid 2px red;
+    border-right: solid 2px red;
+    border-radius: 20px;
+    padding: 0px;
+}
+.class1
+{
+    padding: 2px;
+    margin: 2px;
+}
+ .class1:hover
+{
+    background-color: rgb(228, 148, 29);
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.class2:hover
+{
+    background-color: rgb(228, 148, 29);
+    padding: 5px;
+    font-weight: bold;
+}
+.class2
+{
+    text-decoration: none;
+    color: black;
+}
+.card-img-top
+{
+    height: 35%;
+    width: 100%;
+    margin-top: 0px;
+    background-size: cover;
+    position:static;
+}
+.class5
+{
+    text-decoration: none;
+}
+#id100
+{
+    text-decoration: underline;
+    color: rgb(2, 2, 15);
+    background-color: lightpink;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    border-bottom: solid 4px palegoldenrod;
+    border-left: solid 4px palegreen;
+    border-right: solid 4px paleturquoise;
+    border-top: solid 4px palevioletred;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+.id4
+{
+    text-decoration: underline;
+    color: rgb(2, 2, 15);
+    background-color: rgb(53, 107, 133);
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    border-bottom: solid 4px palegoldenrod;
+    border-left: solid 4px palegreen;
+    border-right: solid 4px paleturquoise;
+    border-top: solid 4px palevioletred;
+    text-align: center;
+}
+.labell{
+    width: 100px;
+    height: 30px;
+    background-color: chocolate;
+    transform: rotate(35deg); 
+    padding-left: 20px;
+    margin-top: 40px;
+    border: solid 2px darkblue;
+    border-radius: 5px;
+    margin-top: 0%;
+    margin-left: 80%;
+}
+#img
+{
+    border-radius: 25px;
+}

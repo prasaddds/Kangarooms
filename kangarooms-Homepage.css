@@ -1,0 +1,83 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(157, 163, 159);
+    /* height: 2000px; */
+}
+#id1
+{
+    margin-left: 0%;
+}
+
+.id44
+{
+    text-decoration: underline;
+    color: rgb(2, 2, 15);
+    background-color: rgb(53, 107, 133);
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    border-bottom: solid 4px palegoldenrod;
+    border-left: solid 4px palegreen;
+    border-right: solid 4px paleturquoise;
+    border-top: solid 4px palevioletred;
+    text-align: center;
+}
+.class10
+{
+    color: rgb(6, 243, 45);
+    background-color: rgb(156, 16, 16);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px;
+    margin-left: 40%;
+}
+.class15
+{
+    border-radius: 100px;
+}
+
+.class16
+{
+    text-decoration: none;
+}
+#myInput
+{
+  background-image: url('/css/searchicon.png'); 
+  background-position: 10px 12px;
+  background-repeat: no-repeat; 
+  width: 100%; 
+  font-size: 16px; 
+  padding: 12px 20px 12px 40px; 
+  border: 1px solid #ddd; 
+  margin-bottom: 12px; 
+}
+
+#myUL
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a
+{
+    border: 1px solid #ddd; 
+    margin-top: -1px; 
+    background-color: #f6f6f6; 
+    padding: 12px; 
+    text-decoration: none; 
+    font-size: 18px;
+    color: black; 
+    display: block;
+}
+
+#myUL li a:hover:not(.header)
+{
+    background-color: #eee; 
+}
+#logo
+{
+    border-radius: 25px;
+}
