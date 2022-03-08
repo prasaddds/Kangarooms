@@ -55,21 +55,20 @@
         You should signup before booking your room
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
       </div>
-      <img src="loginimage.jpg" alt="loginimage" height="10%" width="10%" id="im" > <br>
+      <!-- <img src="loginimage.jpg" alt="loginimage" height="10%" width="10%" id="im" > <br> -->
 
     <div id="id5" align="center">
         <pre>
 		<form name="RegForm" action=""
-			onsubmit="return a()" method="post">
-          <p>   Email             <input type="email"size="20" name="Email" /></p>
-          <p>   Password          <input type="password"size="20" name="Password" id="p1" required/></p>
-          <p>StartingDate      <input type="date"size="20" name="StartingDate" placeholder="DD-MM-YYYY"/></p>
-          <p>EndingDate        <input type="date"size="20" name="EndingDate" placeholder="DD-MM-YYYY"/></p>
-    <br />
-    <input type="reset" value="Reset" name="Reset" class="btn btn-primary"/>   <input type="submit" value="send" class="btn btn-primary"/>
-		</pre>
-		</form>
-    <br><br> <br>
+			onsubmit="return a()" method="post" class="form-class">
+        Name         :<input type="text" required> <br>
+        Email         :<input type="email" size="20" name="Email"> <br>
+        Password      :<input type="password" size="20" name="Password"> <br>
+    Start_Date    :<input type="date" size="20" name="StartingDate" placeholder="DD-MM-YYYY"/> <br>
+    End_Date      :<input type="date" size="20" name="EndingDate" placeholder="DD-MM-YYYY"> <br>
+  <pre>  <input type="reset" value="Reset" name="Reset" class="btn btn-secondary"/> <input type="submit" value="Submit" class="btn btn-secondary">
+  </pre>
+</form>
 </div>
   </body>
 </html>
